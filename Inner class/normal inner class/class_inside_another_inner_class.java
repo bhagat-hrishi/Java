@@ -1,0 +1,22 @@
+
+
+class class_inside_another_inner_class
+{
+    class inner1 
+    {
+        class inner2
+        {
+            public void m1()
+            {
+                System.out.println("\n\nI am m1 method of class which is inside of another inner class\n");
+            }
+        }
+    }
+    public static void main(String[] args) {
+        //check following declaration
+        class_inside_another_inner_class obj1=new class_inside_another_inner_class();
+        class_inside_another_inner_class.inner1 obj2=obj1.new inner1();
+        class_inside_another_inner_class.inner1.inner2 obj3=obj2.new inner2();
+        obj3.m1();
+    }
+}
