@@ -4,7 +4,7 @@ abstract class parent
     {
         System.out.println("hello I am parent");
     }
-   //for this program we get error as we are not included parent class constructor
+   //for this program we get error as we are not included parent class "default constructor"
 
 }
 //when parent class contain any argument constructor then child class should take care with respect to construtcor
@@ -15,6 +15,8 @@ class parent_child_constructor extends parent
     
     parent_child_constructor()
     {
+        //as compiler add super() here which call no-argument constructor of parent class but we do not have such constructor
+        //inside parent class so we get error
         // super(90);
         System.out.println("hello I am child");
     }

@@ -3,7 +3,7 @@ public class StaticVariable {
     public static void main(String[] args) {
         
         //initialize by default value
-        //all variable share same copy of static variable
+        //all Object share same copy of static variable
         System.out.println(s);
     }
 }

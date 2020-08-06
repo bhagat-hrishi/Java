@@ -21,6 +21,18 @@ class array1
         /*double used*/int[] a4=new int[10.5];//C.E:possible loss of precision//(invalid)
 
 
+
+        //declare 2  2D arrays
+        int [][] tmp1,tmp2;
+        tmp1=new int[2][3];
+        tmp2=new int[3][4];
+
+        //here tmp3 is 2D array but tmp4 is 1D array
+        int []tmp3[],tmp4;
+        tmp3=new int[2][3];
+        tmp4=new int[3][4];//Error assigning 2D array to 1D array
+
+
         
     
     }

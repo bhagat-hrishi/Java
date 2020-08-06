@@ -5,6 +5,7 @@ public class ThreadGroup1 {
         System.out.println("main thread belog to group: "+Thread.currentThread().getThreadGroup().getName());
 
         //Every thread group is child group of "system" either directly or indirectly
+        //SystemGroup Acts as Root for all ThreadGroup’s in Java.
         System.out.println("parent group of \"main Thread group\": "+ Thread.currentThread().getThreadGroup().getParent().getName());
 
         /** 

@@ -14,9 +14,12 @@ class class_inside_another_inner_class
     }
     public static void main(String[] args) {
         //check following declaration
+        //creating Object of outer class
         class_inside_another_inner_class obj1=new class_inside_another_inner_class();
-        class_inside_another_inner_class.inner1 obj2=obj1.new inner1();
-        class_inside_another_inner_class.inner1.inner2 obj3=obj2.new inner2();
+        //creating Object of 1st inner class
+        inner1 obj2=obj1.new inner1();
+        //creating Object of 2nd inner class
+        inner1.inner2 obj3=obj2.new inner2();
         obj3.m1();
     }
 }

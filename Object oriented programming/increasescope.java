@@ -13,11 +13,11 @@ class parent
 }
 class increasescope 
 {
-    public void m1()
+    public void m1()//scope increased
     {
         System.out.println("I am child m1");
     }
-    protected void m2()
+    protected void m2()//same scope
     {
         System.out.println("I am child m2");
     }

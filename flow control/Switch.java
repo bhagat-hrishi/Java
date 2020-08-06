@@ -9,10 +9,10 @@ public class Switch {
         //cases and default is optional
         // switch(90)//valid
         // {
-        //         /**
-        //          * Every statement inside switch must be under some case (or) default.
-        //          * Independent statements are not allowed
-        //          */
+                
+                //   Every statement inside switch must be under some case (or) default.
+                //   Independent statements are not allowed
+                 
         //         System.out.println("I am independent statement");//error
         // }
 

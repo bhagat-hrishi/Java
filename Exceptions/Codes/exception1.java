@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.*;
 
 class exception1 
 {
@@ -33,6 +33,7 @@ class exception1
 
       List a=new ArrayList();
       a.add(2);
+      m1();
       System.out.println(a.get(0) instanceof Integer);
 
     }

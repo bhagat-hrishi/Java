@@ -15,7 +15,7 @@ class onlythrowabletypecanbethrown
 {
     public static void main(String[] args)  {
         throw new B();//this is valid
-        // throw new A();
+        //  throw new A(); //This will give error
         
     }
     

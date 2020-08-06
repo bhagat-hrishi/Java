@@ -9,7 +9,7 @@ class multicatchblock_imp
         try{
 
         }
-        catch(Exception  /*This is parent*/|ArithmeticException e/*This is child of Exception */ )
+        catch(Exception  /*This is parent*/ | ArithmeticException e/*This is child of Exception */ )
         {
             e.printStackTrace();
         }

@@ -18,7 +18,7 @@ class constructor_exception extends parent
     public static void main(String[] args)
      {
         System.out.println("\n\nIf Parent class constructor throws some checked exception compulsory Child class");
-        System.out.print("constructor should throw the same checked exception (or) its PARENT");
+        System.out.print("constructor should throw the same checked exception (or) its \"PARENT\" ");
 
         System.out.println("\nhere child class throwing IOException which is parent of FileNotFoundException which is thrown by parent constructor");
     }
