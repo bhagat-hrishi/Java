@@ -5,10 +5,11 @@ class finallyalwaysexecute
         try {
                 a=90/0;
         } catch (Exception e) {
-            System.out.println("Inside catch");
+            System.out.println("\n_____Inside catch______\n");
+            //Exception occur inside catch then also finally executed
              a=90/0;
         } finally {
-            System.out.println("I am finally ");
+            System.out.println("\n___I am finally____\n");
         }
     }
 }

@@ -9,6 +9,7 @@ class multicatchblock_imp
         try{
 
         }
+        //Error as parent child relationship in following catch statement
         catch(Exception  /*This is parent*/ | ArithmeticException e/*This is child of Exception */ )
         {
             e.printStackTrace();

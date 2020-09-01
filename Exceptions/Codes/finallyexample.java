@@ -5,14 +5,15 @@ class finallyexample
 {
     public static void main(String[] args)
      {
-         System.out.println("If an exception raised but the corresponding catch block not matched then also finally will execute");
+         System.out.println("If an exception raised but the corresponding catch block not matched then also finally will executed");
         try {
             int a=90/0;
+            //catch block Exception is not matching to occured exception
             
         } catch (NullPointerException e) 
         {
             System.out.println("Exception caught");
-            System.out.println(e.getStackTrace());
+            System.out.println(e.getMessage());
             
         }
         finally

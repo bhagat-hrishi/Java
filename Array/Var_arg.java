@@ -34,6 +34,15 @@ class Var_arg
     // {
 
     // }
+    
+
+    //We cannot have more than one  variable argument   method 
+    //Following is "Error"
+    // static more_than_one_var_arg(int ... x,float ... f)//Error
+    // {
+    //     System.out.println("I am more than one var-arg methods");
+    // }
+
 
     //As var-arg method is internlly uses 1d array then we can declare main method as below
     public static void main(String ... args)//use of var-arg 

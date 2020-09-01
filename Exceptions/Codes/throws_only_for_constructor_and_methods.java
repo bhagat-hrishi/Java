@@ -4,7 +4,7 @@
  */
 class throws_only_for_constructor_and_methods throws Exception // this is invalid
 {
-    throws_only_for_constructor_and_methods() throws Exception//this is valid
+    throws_only_for_constructor_and_methods() throws Exception //this is valid
     {
         System.out.println("I am constructor");
     }

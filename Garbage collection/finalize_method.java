@@ -1,6 +1,6 @@
 /**
  * Just before destroying any object gc always calls finalize() method to perform cleanup activities.
- *   If the correspondoherwise Object class finalize() method will be executed.
+ *  If correspoding class does not contain finalize method then Object class finalize method is called
  */
 class finalize_method
 {

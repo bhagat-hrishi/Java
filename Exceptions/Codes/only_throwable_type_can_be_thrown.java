@@ -11,7 +11,7 @@ class B extends RuntimeException
 {
 
 }
-class onlythrowabletypecanbethrown
+class only_throwable_type_can_be_thrown
 {
     public static void main(String[] args)  {
         throw new B();//this is valid

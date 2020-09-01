@@ -10,7 +10,7 @@ class MyThread extends Thread
 }
 class By_Extending_Thread_class
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         MyThread t=new MyThread();
         t.start(); 
         /*
@@ -19,7 +19,6 @@ class By_Extending_Thread_class
          * if we replace t.start() by t.run() no new thread is created 
          * and run() method execute like normal method 
          */
-        t.start();
         for (int i = 0; i <5; i++) {
             System.out.println(Thread.currentThread().getName());
         }

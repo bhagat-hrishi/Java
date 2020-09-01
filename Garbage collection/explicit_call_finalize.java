@@ -8,10 +8,10 @@ class explicit_call_finalize
     public static void main(String[] args) {
         explicit_call_finalize obj=new explicit_call_finalize();
         System.out.println("Explicit call");
-        obj.finalize();
+        obj.finalize();//explicit call to finalize method
         System.out.println("Called by GC");
         obj=null;//Object eligible for GC
-        System.gc();
+        System.gc();//Garbage collector will call finalize method
         System.out.println("End of main");
        
     }
