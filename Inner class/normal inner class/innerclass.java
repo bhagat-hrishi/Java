@@ -10,7 +10,7 @@ class innerclass
     
     public static void main(String[] args) {
         System.out.println("\nIn case of innner class without outer class Object there is no chance of existing inner class object");
-        System.out.println("We \"cannot\" declare static memeber inside inner class");
+        System.out.println("We \"cannot\" declare static memeber inside Normal inner class");
         //creating Object of outer class
         innerclass obj1=new innerclass();
         //creating Object of inner class

@@ -13,7 +13,7 @@ public class anonymus_innerclass_extend_class {
         {
             public void m1()
             {
-                System.out.println("I am child ");
+                System.out.println("I am child M1 ");
             }
         };//this is child class just for instance use only
         obj.m1();

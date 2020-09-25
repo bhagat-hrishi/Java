@@ -20,10 +20,10 @@ class accessing_members_of_outer_inside_inner
             System.out.println("inside inner class this refer to current class object so "+this.b);
             //following give outer class b
             System.out.println("to access outer class object we should use outercalss.this  so "+ accessing_members_of_outer_inside_inner.this.b);
-            System.out.println(a);
-            System.out.println(b);
-            System.out.println(x);
-            System.out.println(y);
+            System.out.println("Outer Static: "+ a);
+            System.out.println("Outer Instance: "+b);
+            System.out.println("Outer private : "+x);
+            System.out.println("Outer Public : "+y);
             m1();
 
         }

@@ -13,8 +13,8 @@ public class static_nested_inner_class1 {
         {
             // Inside static nested inner class we can access static member of outer class
             // only
-            System.out.println(a);// error
-            System.out.println(b);
+            System.out.println("Instance membe of Outer class : " +a);// error
+            System.out.println("Static member of Outer class : " +b);
 
         }
         public static void main(String[] args) {

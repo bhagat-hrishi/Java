@@ -2,7 +2,7 @@ public class constructor_and_instanceblock
 {
     static
     {
-        System.out.println("\n-------------I am static will execute just once------------\n");
+        System.out.println("\n-------------I am static and I will execute just once------------\n");
     }
     {
         System.out.println("I am intance block");
