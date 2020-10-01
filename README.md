@@ -1,5 +1,5 @@
 # Java
-This repo contain concepts of Java and some codes
+This repo contain concepts of Java and Design pattern implemented in Java and Their Code
 
 ## Java Naming Conventions
 
