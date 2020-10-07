@@ -1,6 +1,9 @@
 # Java
 This repo contain concepts of Java and Design pattern implemented in Java and Their Code
 
+## Java Output Questions GFG
+#### https://www.geeksforgeeks.org/java-gq/
+
 ## Java Naming Conventions
 
 ### Class and Interface
