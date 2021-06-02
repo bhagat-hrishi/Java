@@ -1,7 +1,7 @@
 class finallysystemexit
 {
     public static void main(String[] args) {
-        System.out.println("When ever we are using System.exit(0) then JVM itself will be shutdown , in this case finally block won't be executed.");
+        System.out.println("When ever we are using System.exit(0) then JVM itself will be shutdown.\ncase 1. if exception occur in try block then , in this case finally block will be executed.\ncase 2. if exception not occur then  finally block won't execute");
         try
         {
             //here finally block won't be executed

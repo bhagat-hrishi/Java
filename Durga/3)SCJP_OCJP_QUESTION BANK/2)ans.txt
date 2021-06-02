@@ -1,0 +1,68 @@
+1)
+enum Element{
+EARTH,WIND,
+FIRE{public String info(){return "Hot";}
+};
+public String info(){return "element";}
+}
+2)A,C
+3)package com.sun.cert;
+import java.util.*;
+public class AddressBook{
+ArrayList entries;
+}
+4)C,D
+5)F
+6)A
+7)A
+8)D
+9)D
+10)D
+11)D
+12)B
+13)A
+14)A
+15)C
+16)A
+17)
+package alpha;
+public class Alpha{
+private String alpha;
+public Alpha( ){ this("A") ; }
+protected Alpha(String a){ alpha=a; }
+}
+package beta;
+public class Beta extends alpha.Alpha{
+private Beta(String a){ super(a); }
+}
+18)D
+19)
+public class Single{
+private static Single instance;
+public static Single getInstance( ){
+if(instance==null) instance = create( );
+return instance;
+}
+protected Single( ) { }
+static Single create ( ) { return new Single ( ) ; }
+}
+class SingleSub extends Shape{
+}
+
+20)D
+21)D
+22)
+public int update(int quantity,int adjust){
+quantity=quantity+adjust;
+return quantity;
+}
+public void call Update( ) {
+int quant=100;
+quant=update(quant,320);
+System.out.println("the quantity is " +quant);
+}
+23)C,E
+24)B,F
+25)B
+26)E
+

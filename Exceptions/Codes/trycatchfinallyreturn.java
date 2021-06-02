@@ -11,14 +11,15 @@ class trycatchfinallyreturn
     {
         try {
             int a=90/0;
-            return "From try";
+            return " return From try";
         }
         catch (Exception err) {
             System.out.println(err.getStackTrace());
             return "return from catch";
         }
         finally{
-            return "return from finally";
+            System.out.println("\nInside finally block\n");
+            return "return From finally block";
         }
         
     }
